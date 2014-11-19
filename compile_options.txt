@@ -1,0 +1,1 @@
+g++ -o calculate_core_score calculate_core_score.cc -std=c++11 -Ofast -ffast-math -ftree-vectorize -m64 -mavx2 -finline-functions -funroll-loops
